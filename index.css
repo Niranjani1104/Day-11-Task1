@@ -1,0 +1,16 @@
+.survey{
+    padding: 20px;
+}
+.fname{
+    color: grey; 
+}
+.lname{
+    color: grey;
+    padding-left: 145px;
+}
+.firstrow{
+    padding: 10px;
+}
+.grey{
+    background-color: rgb(209, 199, 205);
+}

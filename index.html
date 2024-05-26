@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />  
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>  
+    <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>  
+    <!--  Add bootstrap icon Library  -->  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+    <div class="survey">
+    <form>
+        <label class="name" for="name">Name*</label>
+        <br/>
+        <input type="text" name="First Name">
+        <input type="text" name="Last Name">
+        <br/>
+        <label for="fname" class="fname">first</label>
+        <label for="lname" class="lname" style="padding-left:155px ;">last</label>
+        <br/>
+        <br/>
+        <label for="email">Email*</label>
+        <br/>
+        <input type="email" name="email" id="email">
+        <br/>
+        <br/>
+        <label for="experiene">Your experience*</label>
+        <br/>
+        <span class = "fa fa-star checked" style="color: orange;"></span>  
+        <span class = "fa fa-star checked" style="color: orange;"></span>  
+        <span class = "fa fa-star checked" style="color: orange;"></span>  
+        <span class = "fa fa-star checked" style="color: orange;"></span>  
+        <!-- To display unchecked star rating icons -->  
+        <span class = "fa fa-star unchecked" style="color: orange;"></span> 
+        <br/>
+        <p>Overall, how would you rate yourself with us?</p>
+        <p style="font-weight: bold ;">How statisfied are you with*</p>
+        <table style="width: 100%;">
+            <tr>
+                <th style="padding: 10px;"></th>
+                <th style="padding: 10px;">Very Unsatisfied</th>
+                <th style="padding: 10px;">Unsatisfied</th>
+                <th style="padding: 10px;">Neutral</th>
+                <th style="padding: 10px;">Satisfied</th>
+                <th style="padding: 10px;">Very satisfied</th>
+            </tr>
+            <tr class="grey">
+                <td>Purchase</td> 
+                <td style="padding: 10px;"><input type="radio" style="float: left; margin: 10%;"></td>
+                <td style="padding: 10px;"><input type="radio" style="float: left; margin: 10%;"></td>
+                <td style="padding: 10px;"><input type="radio" style="float: left; margin: 10%;"></td>
+                <td style="padding: 10px;"><input type="radio" style="float: left; margin: 10%;"></td>
+                <td style="padding: 10px;"><input type="radio" style="float: left; margin: 10%;"></td>           
+            </tr>
+            <tr>
+                <td>Service</td> 
+                <td style="padding: 10px;"><input type="radio" style="float: left; margin: 10%;"></td>
+                <td style="padding: 10px;"><input type="radio" style="float: left; margin: 10%;"></td>
+                <td style="padding: 10px;"><input type="radio" style="float: left; margin: 10%;"></td>
+                <td style="padding: 10px;"><input type="radio" style="float: left; margin: 10%;"></td>
+                <td style="padding: 10px;"><input type="radio" style="float: left; margin: 10%;"></td>           
+            </tr>
+            <tr class="grey">
+                <td>Company Overall</td> 
+                <td style="padding: 10px;"><input type="radio" style="float: left; margin: 10%;"></td>
+                <td style="padding: 10px;"><input type="radio" style="float: left; margin: 10%;"></td>
+                <td style="padding: 10px;"><input type="radio" style="float: left; margin: 10%;"></td>
+                <td style="padding: 10px;"><input type="radio" style="float: left; margin: 10%;"></td>
+                <td style="padding: 10px;"><input type="radio" style="float: left; margin: 10%;"></td>           
+            </tr>
+        </table>
+        <br/>
+        <p style="font-weight: bold ;">How likely are you to*</p>
+        <table style="width: 100%;">
+            <tr>
+                <th style="padding: 10px;"></th>
+                <th style="padding: 10px;">Very Unlikely</th>
+                <th style="padding: 10px;">Unlikely</th>
+                <th style="padding: 10px;">Neutral</th>
+                <th style="padding: 10px;">Likely</th>
+                <th style="padding: 10px;">Very Likely</th>
+            </tr>
+            <tr class="grey">
+                <td>Buy from us again</td> 
+                <td style="padding: 10px;"><input type="radio" style="float: left; margin: 10%;"></td>
+                <td style="padding: 10px;"><input type="radio" style="float: left; margin: 10%;"></td>
+                <td style="padding: 10px;"><input type="radio" style="float: left; margin: 10%;"></td>
+                <td style="padding: 10px;"><input type="radio" style="float: left; margin: 10%;"></td>
+                <td style="padding: 10px;"><input type="radio" style="float: left; margin: 10%;"></td>           
+            </tr>
+            <tr>
+                <td>Recommend our product to others</td> 
+                <td style="padding: 10px;"><input type="radio" style="float: left; margin: 10%;"></td>
+                <td style="padding: 10px;"><input type="radio" style="float: left; margin: 10%;"></td>
+                <td style="padding: 10px;"><input type="radio" style="float: left; margin: 10%;"></td>
+                <td style="padding: 10px;"><input type="radio" style="float: left; margin: 10%;"></td>
+                <td style="padding: 10px;"><input type="radio" style="float: left; margin: 10%;"></td>           
+            </tr>
+            <tr class="grey">
+                <td>Recommend our company to others</td> 
+                <td style="padding: 10px;"><input type="radio" style="float: left; margin: 10%;"></td>
+                <td style="padding: 10px;"><input type="radio" style="float: left; margin: 10%;"></td>
+                <td style="padding: 10px;"><input type="radio" style="float: left; margin: 10%;"></td>
+                <td style="padding: 10px;"><input type="radio" style="float: left; margin: 10%;"></td>
+                <td style="padding: 10px;"><input type="radio" style="float: left; margin: 10%;"></td>           
+            </tr>
+        </table>
+        <br/>
+        <p style="font-weight: bold ;">Additional comments or suggestions</p>
+        <textarea style="height: 10em; width: 100%;"></textarea>
+        <br/>
+        <button>Submit</button>
+    </form>
+    </div>
+</body>
+</html>
